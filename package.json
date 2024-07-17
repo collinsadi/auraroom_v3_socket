@@ -1,0 +1,21 @@
+{
+  "name": "auraroom-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "clear && nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
